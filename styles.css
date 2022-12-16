@@ -2,9 +2,16 @@ body{
     background-color: black;
     color: white;
 }
+h1 {
+    display: flex;
+    justify-content: center;
+}
+p {
+    display: flex;
+    justify-content: center;
+}
 #flexbox-row, #flexbox-column, #css-layout{
     display: flex;
-    /* flex-direction: row; */
     flex-wrap: wrap;
     width: 300px;
     height: 100px;
@@ -12,13 +19,12 @@ body{
  padding: 50px;
  margin: 20px;
 }
+.card-header {
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: -10px;
+    position:absolute; 
 
-section h2 {
-    border: 1px;;
-}
-section{
-    display: flex;
-    flex-direction: row;
 }
 
 @media screen and (max-width: 980px) {
